@@ -43,6 +43,7 @@ def answer():
 
     return jsonify(out)
 
+
 # Run if running "python answer.py"
 if __name__ == '__main__':
 
