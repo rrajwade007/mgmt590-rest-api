@@ -1,6 +1,5 @@
 import sqlite3
 from sqlite3 import Error
-import pandas as pd
 from transformers.pipelines import pipeline
 from flask import Flask
 from flask import request
