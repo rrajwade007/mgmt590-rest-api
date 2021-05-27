@@ -6,6 +6,7 @@ from flask import request
 from flask import json
 from flask import jsonify
 import time
+import os
 
 def create_connection(db_file):
     """ create a database connection to a SQLite database """
